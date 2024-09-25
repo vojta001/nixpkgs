@@ -404,6 +404,8 @@ with pkgs;
 
   caroline = callPackage ../development/libraries/caroline { };
 
+  casparcg-client = qt6Packages.callPackage ../applications/video/casparcg/client.nix {};
+
   castget = callPackage ../applications/networking/feedreaders/castget { };
 
   catatonit = callPackage ../applications/virtualization/catatonit { };
